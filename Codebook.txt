@@ -1,0 +1,81 @@
+Original project: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+Source of the data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Target tidy data:
+	* Subject - id of the subject based on the /test/subject_test.txt and /train/subject_train.txt files
+	* Activity - activity label based on the activity_labels.txt file 
+	* Mean of fBodyAcc-mean()-X - mean of the variable fBodyAcc-mean()-X grouped by subject and activity
+	* Mean of fBodyAcc-mean()-Y - mean of the variable fBodyAcc-mean()-X grouped by subject and activity
+	* Mean of fBodyAcc-mean()-Z - mean of the variable fBodyAcc-mean()-X grouped by subject and activity
+	* Mean of fBodyAcc-meanFreq()-X -||-
+	* Mean of fBodyAcc-meanFreq()-Y -||-
+	* Mean of fBodyAcc-meanFreq()-Z -||-
+	* Mean of fBodyAcc-std()-X -||-
+	* Mean of fBodyAcc-std()-Y -||-
+	* Mean of fBodyAcc-std()-Z	-||-
+	* Mean of fBodyAccJerk-mean()-X -||-
+	* Mean of fBodyAccJerk-mean()-Y -||-
+	* Mean of fBodyAccJerk-mean()-Z -||-
+	* Mean of fBodyAccJerk-meanFreq()-X -||-
+	* Mean of fBodyAccJerk-meanFreq()-Y -||-
+	* Mean of fBodyAccJerk-meanFreq()-Z -||-
+	* Mean of fBodyAccJerk-std()-X -||-
+	* Mean of fBodyAccJerk-std()-Y-||-
+	* Mean of fBodyAccJerk-std()-Z -||-
+	* Mean of fBodyAccMag-mean() -||-
+	* Mean of fBodyAccMag-meanFreq() -||-
+	* Mean of fBodyAccMag-std()  -||-
+	* Mean of fBodyBodyAccJerkMag-mean() -||-
+	"Mean of fBodyBodyAccJerkMag-meanFreq() -||-
+	"Mean of fBodyBodyAccJerkMag-std() -||-
+	"Mean of fBodyBodyGyroJerkMag-mean() -||-
+	"Mean of fBodyBodyGyroJerkMag-meanFreq() -||- 
+	"Mean of fBodyBodyGyroJerkMag-std() -||-
+	"Mean of fBodyBodyGyroMag-mean() -||-
+	"Mean of fBodyBodyGyroMag-meanFreq() -||- 
+	"Mean of fBodyBodyGyroMag-std() -||-
+	"Mean of fBodyGyro-mean()-X -||- 
+	"Mean of fBodyGyro-mean()-Y -||-
+	"Mean of fBodyGyro-mean()-Z -||- 
+	"Mean of fBodyGyro-meanFreq()-X -||- 
+	"Mean of fBodyGyro-meanFreq()-Y -||- 
+	"Mean of fBodyGyro-meanFreq()-Z -||- 
+	"Mean of fBodyGyro-std()-X -||-
+	"Mean of fBodyGyro-std()-Y -||- 
+	"Mean of fBodyGyro-std()-Z  -||- 
+	"Mean of tBodyAcc-mean()-X  -||-
+	"Mean of tBodyAcc-mean()-Z -||- 
+	"Mean of tBodyAcc-std()-X -||- 
+	"Mean of tBodyAcc-std()-Y" 
+	"Mean of tBodyAcc-std()-Z"
+	"Mean of tBodyAccJerk-mean()-X" 
+	"Mean of tBodyAccJerk-mean()-Y" 
+	"Mean of tBodyAccJerk-mean()-Z" 
+	"Mean of tBodyAccJerk-std()-X" 
+	"Mean of tBodyAccJerk-std()-Y" 
+	"Mean of tBodyAccJerk-std()-Z" 
+	"Mean of tBodyAccJerkMag-mean()" 
+	"Mean of tBodyAccJerkMag-std()" 
+	"Mean of tBodyAccMag-mean()" 
+	"Mean of tBodyAccMag-std()" 
+	"Mean of tBodyGyro-mean()-X" 
+	"Mean of tBodyGyro-mean()-Y" 
+	"Mean of tBodyGyro-mean()-Z" 
+	"Mean of tBodyGyro-std()-X"
+	"Mean of tBodyGyro-std()-Z" 
+	"Mean of tBodyGyroJerk-mean()-X" 
+	"Mean of tBodyGyroJerk-mean()-Y" 
+	"Mean of tBodyGyroJerk-mean()-Z" 
+	"Mean of tBodyGyroJerk-std()-X" 
+	"Mean of tBodyGyroJerk-std()-Y"
+	"Mean of tBodyGyroJerkMag-mean()" 
+	"Mean of tBodyGyroJerkMag-std()" 
+	"Mean of tBodyGyroMag-mean()" 
+	"Mean of tBodyGyroMag-std()" 
+	"Mean of tGravityAcc-mean()-X" 
+	"Mean of tGravityAcc-mean()-Y" 
+	"Mean of tGravityAcc-mean()-Z" 
+	"Mean of tGravityAcc-std()-X" 
+	"Mean of tGravityAcc-std()-Y" 
+	"Mean of tGravityAcc-std()-Z" 
+	"Mean of tGravityAccMag-mean()" 
+	"Mean of tGravityAccMag-std()"
